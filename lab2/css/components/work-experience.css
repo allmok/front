@@ -1,0 +1,65 @@
+
+  
+  .work-experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: start; /* Выравнивание по верхнему краю */
+    gap: 20px; /* Увеличенный отступ между блоками */
+  }
+  
+  .job-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .job-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .company-details {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .company-logo {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .company-name {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .job-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Выравнивание вправо */
+  }
+  
+  .job-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Выравнивание вправо */
+    gap: 5px;
+  }
+  
+  .job-period {
+    margin: 0;
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .full-time {
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }

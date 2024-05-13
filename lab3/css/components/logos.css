@@ -30,30 +30,3 @@
     margin-bottom: 30px;
   }
   
-  @media screen and (max-width: 1024px) {
-    .logos li {
-      flex: 0 0 20%; /* На ширині 1024px і менше: 5 елементів у рядку */
-      max-width: 20%;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .logos li {
-      flex: 0 0 25%; /* На ширині між 1024px і 768px: 4 елементи у рядку */
-      max-width: 25%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .logos li {
-      flex: 0 0 50%; /* На ширині між 768px і 480px: 2 елементи у рядку */
-      max-width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .logos li {
-      flex: 0 0 100%; /* На ширині менше 320px: 1 елемент у рядку */
-      max-width: 100%;
-    }
-  }

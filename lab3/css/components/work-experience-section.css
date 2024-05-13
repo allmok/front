@@ -91,6 +91,43 @@
 }
 
 .job-meta .full-time {
-  margin-bottom: 20px; /* Добавляем отступ снизу */
+  margin-bottom: 20px; 
 }
 
+@media (max-width: 768px) {
+  .work-experience {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .job-info {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px; /* Додаємо нижній відступ для .job-info */
+  }
+
+  .job-details {
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .job-meta {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .job-period-container {
+    flex-direction: row-reverse;
+  }
+
+  .company-details {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .button {
+    margin-bottom: 10px;
+  }
+  
+}

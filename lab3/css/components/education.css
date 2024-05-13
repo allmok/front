@@ -69,22 +69,31 @@
 }
 
 @media (max-width: 1104px) {
-.education-experience {
-  flex-direction: column;
-  align-items: stretch;
-  width: 100%;
+  .education-experience {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .education-info {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .education-details {
+    align-items: flex-start;
+  }
+
+  .education-period {
+    flex-direction: row-reverse;
+  }
 }
 
-.education-info {
-  width: 100%;
-  margin-right: 0;
-}
-
-.education-details {
-  align-items: flex-start;
-}
-
-.education-period {
-  flex-direction: row-reverse;
-}
+@media (max-width: 768px) {
+  .education-title {
+    width: 100%;
+    white-space: normal;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
 }

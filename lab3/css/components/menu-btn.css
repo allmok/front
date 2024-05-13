@@ -2,7 +2,7 @@
     margin-right: 20px;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .menu-btn {
       display: none;
     }

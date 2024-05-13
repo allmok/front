@@ -1,0 +1,10 @@
+.social-list .menu-btn {
+    margin-right: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-btn {
+      display: none;
+    }
+  }
+

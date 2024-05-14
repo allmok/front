@@ -3,6 +3,13 @@
   padding-bottom: 15%;
 }
 
+.projects-section .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: -20px; /* Добавлено это свойство */
+}
+
 .projects-page .page-content .filters {
   display: flex;
   margin-bottom: 60px;
@@ -25,15 +32,11 @@
   margin-bottom: 5%;
 }
 
-.projects-section .inner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
 .project-card {
   width: 30%;
   margin-bottom: 30px;
+  margin-right: 20px; /* Добавлено это свойство */
 }
 
 .no-items {
@@ -68,6 +71,12 @@
 .projects-section .inner.grid-view .project-card .img {
   flex: 0 0 40%;
   max-width: 40%;
+}
+
+.projects-section .inner.grid-view .project-card .img {
+  flex: 0 0 40%;
+  max-width: 40%;
+  border-radius: 20px 0 0 20px; /* Добавлено это свойство */
 }
 
 .projects-section .inner.grid-view .project-card .content {
@@ -109,11 +118,23 @@
 
 @media (max-width: 767px) {
   .projects-page .page-content .filters {
-      flex-direction: column;
+    flex-direction: column;
+
   }
 
-  .projects-page .page-content .filters>*:not(:last-child) {
-      margin-right: 0;
-      margin-bottom: 15px;
+  .projects-page .page-content .filters > *:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .layout-toggle {
+    margin-top: 15px; 
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px; 
+  }
+
+  .projects-page .page-content .filters {
+    margin-bottom: 30px; 
   }
 }

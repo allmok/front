@@ -187,16 +187,18 @@ layoutBtn.addEventListener('click', () => {
 
 
 const renderProjectsWithNoItemsMessage = (data, container) => {
+    container.innerHTML = ''; // Очищаем контейнер
     if (!(typeof data === 'object') || data.length === 0) {
       container.innerHTML = '<p class="no-items">There are no items that satisfy the filter</p>';
       return;
     }
-    let content = '';
     for (let i = 0; i < data.length; i++) {
-      content += createProjectTemplate(data[i]);
+      container.innerHTML += createProjectTemplate(data[i]);
     }
-    container.innerHTML = content;
   }
-  
+
+
+
+
   filtersForm.addEventListener('change', handleFormChange);
   renderProjectsWithNoItemsMessage(data, projectsContainer);

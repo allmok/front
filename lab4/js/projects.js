@@ -156,6 +156,7 @@ for (const activeFilterKey in activeFilters) {
 return Object.keys(activeFilters).length === count;
 };
 const handleFormChange = (event) => {
+    
 const target = event.target;
 
 const targetValue = target.value;
@@ -170,22 +171,11 @@ if (targetValue === '') {
     activeFilters[targetName] = targetValue;
 }
 const filteredData = data.filter((dataItem) => itemIsValid(dataItem, activeFilters));
-dataRender(filteredData, projectsContainer);
+    renderProjectsWithNoItemsMessage(filteredData, projectsContainer);
 };
 filtersForm.addEventListener('change', handleFormChange);
 dataRender(data, projectsContainer);
 
-const renderProjectsWithNoItemsMessage = (data, container) => {
-    if (!(typeof data === 'object') || data.length === 0) {
-      container.innerHTML = '<p class="no-items">No items here</p>';
-      return;
-    }
-    let content = '';
-    for (let i = 0; i < data.length; i++) {
-      content += createProjectTemplate(data[i]);
-    }
-    container.innerHTML = content;
-  }
 
 
   const layoutBtn = document.querySelector('.js-layout-btn');
@@ -196,3 +186,17 @@ layoutBtn.addEventListener('click', () => {
 });
 
 
+const renderProjectsWithNoItemsMessage = (data, container) => {
+    if (!(typeof data === 'object') || data.length === 0) {
+      container.innerHTML = '<p class="no-items">There are no items that satisfy the filter</p>';
+      return;
+    }
+    let content = '';
+    for (let i = 0; i < data.length; i++) {
+      content += createProjectTemplate(data[i]);
+    }
+    container.innerHTML = content;
+  }
+  
+  filtersForm.addEventListener('change', handleFormChange);
+  renderProjectsWithNoItemsMessage(data, projectsContainer);

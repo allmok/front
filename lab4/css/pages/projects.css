@@ -1,103 +1,119 @@
 .projects-page .page-content {
-    padding-top: 15%;
-    padding-bottom: 15%;
-    }
-    .projects-page .page-content .filters {
-    display: flex;
-    margin-bottom: 60px;
-    }
-    .projects-page .page-content .filters > * {
-    flex: 1 0 0%;
-    }
-    .projects-page .page-content .filters > *:not(:last-child) {
-    margin-right: 45px;
-    }
-    .projects-page .page-content .subtitle {
-    font-size: 20px;
-    line-height: 1.4;
-    }
-    .projects-page .page-content .desc {
-    margin-bottom: 5%;
-    }
-    .projects-section .inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-      
-      .project-card {
-        width: 30%;
-        margin-bottom: 30px;
-      }
-      .no-items {
-        text-align: center;
-        font-size: 18px;
-        color: #666;
-      }
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
 
-      
-      .layout-btn {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-      }
-      
-      .layout-btn img {
-        width: 24px;
-        height: 24px;
-      }
+.projects-page .page-content .filters {
+  display: flex;
+  margin-bottom: 60px;
+}
 
-      .projects-section .inner.grid-view {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      
-      .projects-section .inner.grid-view .project-card {
-        width: 100%;
-        display: flex;
-        align-items: center;
-      }
-      
-      .projects-section .inner.grid-view .project-card .img {
-        flex: 0 0 40%;
-        max-width: 40%;
-      }
-      
-      .projects-section .inner.grid-view .project-card .content {
-        flex: 0 0 60%;
-        max-width: 60%;
-        padding-left: 20px;
-      }
+.projects-page .page-content .filters>* {
+  flex: 1 0 0%;
+}
 
-      .filters {
-        display: flex;
-        align-items: flex-start; /* Выравниваем элементы по верхнему краю */
-    }
-    
-    .filters #technology-select,
-    .filters #theme-select,
-    .filters #platform-select {
-        width: 500px;
-        padding: 5px; /* Уменьшаем высоту поля */
-    }
-    
+.projects-page .page-content .filters>*:not(:last-child) {
+  margin-right: 45px;
+}
 
-    
-.layout-toggle {
-  margin-bottom: 0; /* Убираем отступ снизу */
-  margin-left: auto; /* Размещаем кнопку в конце ряда */
-  display: flex; /* Делаем кнопку flex-контейнером */
-  align-items: center; /* Выравниваем элементы по вертикали */
+.projects-page .page-content .subtitle {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.projects-page .page-content .desc {
+  margin-bottom: 5%;
+}
+
+.projects-section .inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.no-items {
+  text-align: center;
+  font-size: 18px;
+  color: 42446E;
 }
 
 
-      @media (max-width: 767px) {
-        .projects-page .page-content .filters {
-          flex-direction: column;
-        }
-      
-        .projects-page .page-content .filters > *:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 15px;
-        }
-      }
+.layout-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.layout-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.projects-section .inner.grid-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-section .inner.grid-view .project-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.projects-section .inner.grid-view .project-card .img {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.projects-section .inner.grid-view .project-card .content {
+  flex: 0 0 60%;
+  max-width: 60%;
+  padding-left: 20px;
+}
+
+.filters {
+  display: flex;
+  align-items: flex-start;
+  /* Выравниваем элементы по верхнему краю */
+}
+
+.filters #technology-select,
+.filters #theme-select,
+.filters #platform-select {
+  width: 500px;
+  padding: 5px;
+  /* Уменьшаем высоту поля */
+}
+
+
+
+.layout-toggle {
+  margin-bottom: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.no-items {
+  text-align: center;
+  font-size: 18px;
+  color: #42446E;
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .projects-page .page-content .filters {
+      flex-direction: column;
+  }
+
+  .projects-page .page-content .filters>*:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 15px;
+  }
+}

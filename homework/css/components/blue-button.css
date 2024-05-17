@@ -1,0 +1,19 @@
+.blue-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 47px;
+    background-color: #142A31;
+    color: #fff;
+    border-radius: 23.5px; 
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    text-decoration: none;
+  }
+  
+  .blue-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }

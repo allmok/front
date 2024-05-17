@@ -1,7 +1,7 @@
 .about-container {
     display: block;
     margin-bottom: 100px; /* Добавляем отступ снизу для контейнера */
-    padding-right: 1000px; /* Добавляем отступ справа внутри контейнера */
+    
 }
 
 .about {

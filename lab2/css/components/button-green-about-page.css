@@ -6,7 +6,7 @@
     font-size: 12px;
     font-weight: 600;
     margin-right: 0px;  
-    width: 100px; /* Добавлена фиксированная ширина */
+    max-width: 100px; 
     box-sizing: border-box; /* Включаем box-sizing, чтобы padding не влиял на ширину */
     text-align: center; /* Выравниваем текст по центру */
   }

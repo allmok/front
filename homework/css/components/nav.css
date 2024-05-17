@@ -1,0 +1,21 @@
+.nav {
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav .list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .nav .list .item {
+    margin-right: 0;
+  }
+  
+  .nav .list .item .link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }

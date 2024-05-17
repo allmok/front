@@ -7,59 +7,60 @@
     gap: 20px; /* Увеличенный отступ между блоками */
   }
   
-  .job-info {
+  .work-experience .job-info {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
   
-  .job-title {
+  .work-experience .job-title {
     font-weight: bold;
     font-size: 18px;
     margin: 0;
   }
   
-  .company-details {
+  .work-experience .company-details {
     display: flex;
     align-items: center;
     gap: 5px;
   }
   
-  .company-logo {
+  .work-experience .company-logo {
     width: 20px;
     height: 20px;
   }
   
-  .company-name {
+  .work-experience .company-name {
     margin: 0;
     font-size: 14px;
     color: #666;
   }
   
-  .job-meta {
+  .work-experience .job-meta {
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Выравнивание вправо */
   }
   
-  .job-details {
+  .work-experience .job-details {
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Выравнивание вправо */
     gap: 5px;
   }
   
-  .job-period {
+  .work-experience .job-period {
     margin: 0;
     font-size: 14px;
     color: green;
     font-weight: bold;
   }
   
-  .full-time {
+  .work-experience .full-time {
     background-color: green;
     color: white;
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 12px;
   }
+  

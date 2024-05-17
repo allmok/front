@@ -4,12 +4,12 @@
   align-items: center;
   margin-bottom: 20px;
   padding-bottom: 40px;
-  width: 1100px; 
+  max-width: 1100px; 
 
 }
 
-.job-info {
-  width: 250px;
+.work-experience .job-info {
+  max-width: 250px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -17,7 +17,7 @@
   margin-right: 50px;
 }
 
-.job-details {
+.work-experience .job-details {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -27,32 +27,32 @@
 
 
 
-.job-title {
+.work-experience .job-title {
   font-weight: 400;
   font-size: 20px;
   margin: 0;
   line-height: 40px;
 }
 
-.company-details {
+.work-experience .company-details {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.company-logo {
+.work-experience .company-logo {
   width: 20px;
   height: 20px;
 }
 
-.company-name {
+.work-experience .company-name {
   margin: 0;
   font-size: 15px;
   color: #A7A7A7;
   font-weight: 300;
 }
 
-.job-meta {
+.work-experience .job-meta {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -61,7 +61,7 @@
 
 
 
-.job-period {
+.work-experience .job-period {
   font-size: 15px;
   font-weight: 500;
   color: #A7A7A7;
@@ -69,13 +69,13 @@
 
 
 
-.job-period-container {
+.work-experience .job-period-container {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.with-line-after::after {
+.work-experience .with-line-after::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -85,12 +85,12 @@
   background-color: #A7A7A7;
 }
 
-.with-line-after {
+.work-experience .with-line-after {
   position: relative;
   z-index: 1;
 }
 
-.job-meta .full-time {
+.work-experience .job-meta .full-time {
   margin-bottom: 20px; /* Добавляем отступ снизу */
 }
 

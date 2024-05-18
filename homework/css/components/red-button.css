@@ -7,13 +7,12 @@
     border-radius: 128px;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 30px;
     height: 52px;
   }
   .red-button-text {
     color: #142A31;
     text-transform: uppercase;
-    font-weight: bold;
     line-height: 52px;
     text-align: center;
     font-size: 15px;

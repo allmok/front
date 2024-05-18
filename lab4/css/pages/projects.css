@@ -94,7 +94,7 @@
 .filters #technology-select,
 .filters #theme-select,
 .filters #platform-select {
-  width: 500px;
+  max-width: 500px;
   padding: 5px;
   /* Уменьшаем высоту поля */
 }

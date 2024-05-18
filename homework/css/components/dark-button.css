@@ -1,0 +1,24 @@
+
+  .dark-button {
+    position: absolute;
+    width: 238px;
+    height: 24px;
+    left: 210px; /* Перемещаем кнопку правее относительно .third-section */
+    top: 20px; /* Перемещаем кнопку ниже относительно .third-section */
+    background: #142A31;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dark-button-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #FDB0AB;
+    text-transform: uppercase;
+  }
+  

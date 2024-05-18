@@ -20,63 +20,58 @@
 .feature-items {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 200px; /* Увеличенное расстояние между элементами */
 }
 
 .feature-item {
+  position: relative;
   max-width: 300px;
   text-align: center;
-}
-
-.feature-item-content {
-  position: relative;
-  display: inline-block;
 }
 
 .image-container {
   position: relative;
   display: inline-block;
+  width: 320px;
+  height: 388px;
 }
 
 .image-container img {
   max-width: 100%;
   height: auto;
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.image-container::before {
-  content: '';
+.rectangle {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 320px;
   height: 388px;
-  background-color: #f9fafb;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F9FAFB;
   border-radius: 13px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .feature-item-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #142a31;
+  font-size: 21px; /* Изменен размер шрифта */
+  color: #142A31; /* Цвет текста */
   margin-top: 20px;
   margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .feature-item-description {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #666;
-  line-height: 1.5;
-}
-
-.feature-item-container {
+  font-size: 15px; /* Изменен размер шрифта */
+  color: #142A31; /* Цвет текста */
+  margin-bottom: 10px; /* Добавлено для отступа */
   position: relative;
-  z-index: 1;
-}
-
-.feature-item-title,
-.feature-item-description {
-  position: relative;
-  z-index: -1;
+  z-index: 2;
 }

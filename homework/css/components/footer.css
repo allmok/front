@@ -1,0 +1,118 @@
+.footer-line {
+    height: 1px;
+    background-color: #EAECF0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Изменено на flex-start */
+    padding: 40px 0;
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column; /* Добавлено для вертикального расположения */
+    align-items: flex-start; /* Добавлено для выравнивания слева */
+  }
+  
+  .footer-left .button-group {
+    margin-top: 20px; /* Добавлен отступ сверху для кнопок */
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: space-between; /* Изменено для увеличения расстояния между колонками */
+    width: 30%; /* Добавлено для фиксированной ширины */
+  }
+  
+  .footer-column {
+    margin-left: 0; /* Убран отступ слева */
+  }
+  
+  .footer-link {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #142A31;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .new-badge {
+    position: absolute; /* Используем абсолютное позиционирование */
+    top: 0; /* Располагаем кнопку в верхней части контейнера */
+    right: -20px; /* Смещаем кнопку вправо, чтобы она была рядом с текстом "API" */
+    background: #ECFDF3;
+    border-radius: 160px;
+    padding: 6px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    color: #027A48;
+  }
+  
+  .new-badge span {
+    font-family: 'Roboto'; /* Шрифт */
+    font-style: normal; /* Стиль шрифта */
+    font-weight: 400; /* Насыщенность шрифта */
+    font-size: 12px; /* Размер шрифта */
+    line-height: 28px; /* Межстрочный интервал */
+    color: #027A48; /* Цвет текста */
+  }
+  
+  .privacy-policy {
+    margin-top: 20px;
+  }
+  
+  .policy-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #667085;
+    /* position: absolute;
+    width: 633px;
+    height: 126px;
+    left: 40px;
+    top: 4718.56px; */
+  }
+  
+  .copyright-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #667085;
+  }
+
+  .policy-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #142A31;
+    margin-bottom: 10px;
+  }
+  
+  .policy-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #667085;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy {
+    margin-top: 20px;
+  }
+  
+
+  

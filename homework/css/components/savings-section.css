@@ -1,0 +1,39 @@
+.savings-section {
+  padding: 80px 0;
+}
+
+.savings-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.savings-section .text-content {
+  max-width: 50%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.savings-section .main-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #142A31;
+  margin-bottom: 20px;
+}
+
+.savings-section .description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #142A31;
+}
+
+.savings-section .image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.savings-section .dark-button {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}

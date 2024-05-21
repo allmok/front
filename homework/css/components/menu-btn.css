@@ -2,8 +2,4 @@
     margin-right: 20px;
   }
   
-  @media (min-width: 929px) {
-    .menu-btn {
-      display: none;
-    }
-  }
+  

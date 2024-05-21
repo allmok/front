@@ -44,3 +44,36 @@
   top: -50px;
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .interest-overview-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interest-overview-section .dark-button {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .interest-overview-section .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .interest-overview-section .text-content {
+    max-width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .interest-overview-section .image-content img {
+    max-width: 100%;
+  }
+
+  .interest-overview-section .description {
+    text-align: center;
+  }
+}

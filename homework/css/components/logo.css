@@ -1,28 +1,13 @@
 .logo {
-<<<<<<< Updated upstream
     display: inline-block;
-    width: 110px;
-    height: 61px;
+    width: 160px !important; /* Фиксированная ширина */
+    height: 89px !important; /* Фиксированная высота */
     flex-shrink: 0;
-    }
-    .logo img {
-    width: 100%;
-    height: 100%;
-    }
-=======
-  display: inline-block;
-  width: 110px;
-  height: 61px;
-  flex-shrink: 0;
   }
+  
   .logo img {
-  width: 100%;
-  height: 100%;
+    width: 160px !important; /* Фиксированная ширина */
+    height: 89px !important; /* Фиксированная высота */
   }
-  @media screen and (max-width: 1150px) {
-    .logo {
-      display: block; /* Убедитесь, что логотип отображается */
-      margin-right: 20px; /* Отступ справа от логотипа */
-    }
-  }
->>>>>>> Stashed changes
+  
+ 

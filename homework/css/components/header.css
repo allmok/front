@@ -4,7 +4,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1150px) {
+=======
+
+.nav-btn {
+  display: none;
+}
+@media screen and (max-width: 896px) {
+>>>>>>> dev
   .header {
     display: flex;
     align-items: center;
@@ -39,7 +47,11 @@
     left: 0;
     z-index: 99;
     flex-direction: column;
+<<<<<<< HEAD
     width: 100vw;
+=======
+    width: 50vw;
+>>>>>>> dev
     padding-top: 70px;
     background-color: white;
     transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
@@ -92,3 +104,39 @@
     margin-bottom: 20px;
   }
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width: 896px) and (orientation: portrait) {
+  .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -95px;
+    justify-content: center;
+  }
+  .header .logo {
+    margin-right: auto;
+  }
+  .nav-btn {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 42px;
+    height: 18px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin: 35 55px;
+  }
+  
+  .nav-btn-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #666;
+    border-radius: 2px;
+  }
+}
+>>>>>>> dev

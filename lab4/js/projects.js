@@ -174,24 +174,25 @@ const filteredData = data.filter((dataItem) => itemIsValid(dataItem, activeFilte
     renderProjectsWithNoItemsMessage(filteredData, projectsContainer);
 };
 filtersForm.addEventListener('change', handleFormChange);
+
 dataRender(data, projectsContainer);
 
 
 
-  const layoutBtn = document.querySelector('.js-layout-btn');
+const layoutBtn = document.querySelector('.js-layout-btn');
 const projectsContainer2 = document.querySelector('.js-projects-container');
 
 layoutBtn.addEventListener('click', () => {
   projectsContainer.classList.toggle('grid-view');
 });
 
-
+// Функция для рендеринга проектов с сообщением, если нет подходящих проектов
 const renderProjectsWithNoItemsMessage = (data, container) => {
-    container.innerHTML = ''; // Очищаем контейнер
+    container.innerHTML = '';
     if (!(typeof data === 'object') || data.length === 0) {
-      container.innerHTML = '<p class="no-items">There are no items that satisfy the filter</p>';
-      return;
-    }
+        container.innerHTML = '<p class="no-items">There are no items that satisfy the filter</p>';
+        return;
+      }
     for (let i = 0; i < data.length; i++) {
       container.innerHTML += createProjectTemplate(data[i]);
     }
@@ -200,5 +201,4 @@ const renderProjectsWithNoItemsMessage = (data, container) => {
 
 
 
-  filtersForm.addEventListener('change', handleFormChange);
-  renderProjectsWithNoItemsMessage(data, projectsContainer);
+  

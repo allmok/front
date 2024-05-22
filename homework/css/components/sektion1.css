@@ -9,10 +9,6 @@
   justify-content: space-between; 
 }
 
-.content-text {
-  max-width: 500px; 
-}
-
 .main-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
@@ -50,3 +46,36 @@
     gap: 16px; 
   }
   
+  @media screen and (max-width: 896px) {
+    .phone-image {
+      max-width: 250px;
+      height: auto;
+      margin-left: -100px; 
+    }
+    .main-heading {
+      font-size: 38px;
+      margin-bottom: 35px;
+    }
+    
+    .main-description {
+      font-size: 16px;
+      margin-bottom: 90px;
+    }
+  }
+
+  @media screen and (max-width: 896px) and (orientation: portrait) {
+    .phone-image {
+      max-width: 145px;
+      height: auto;
+      margin-left: -180px;
+      margin-bottom: 155px;
+    }
+
+    .main-heading {
+      font-size: 30px;
+    }
+
+    .main-description {
+      font-size: 13px;
+    }
+  }

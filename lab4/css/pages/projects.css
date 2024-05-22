@@ -95,7 +95,6 @@
 .filters #theme-select,
 .filters #platform-select {
   max-width: 500px;
-  padding: 5px;
   /* Уменьшаем высоту поля */
 }
 

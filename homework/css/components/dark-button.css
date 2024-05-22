@@ -21,4 +21,11 @@
     color: #FDB0AB;
     text-transform: uppercase;
   }
-  
+
+  @media screen and (max-width: 768px) {
+  .dark-button {
+    position: static;
+    margin: 0 auto 20px; /* Центрируем кнопку по горизонтали */
+    display: inline-block; /* Позволяет кнопке занимать только необходимую ширину */
+  }
+}

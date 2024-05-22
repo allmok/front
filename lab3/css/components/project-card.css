@@ -59,20 +59,17 @@
         padding: 15px;
         }
         .project-card .name {
-        font-size: 11px;
+        font-size: 20px;
         margin-bottom: 15px;
         }
         .project-card .desc {
-        font-size: 7px;
+        font-size: 16px;
         }
-        .project-card .stack {
-            font-size: 8px;
+        .project-card .actions .ling {
+            font-size: 14px;
         }
-        .project-card .actions .link {
-        font-size: 5px;
-        }
-        .project-card .actions .icon {
-        width: 12px;
-        margin-right: 1px;
+        .project-card .actions .icon{
+            width: 15px;
+            margin-right: 7px;
         }
         }

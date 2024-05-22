@@ -4,7 +4,6 @@
   background: #EAECF0;
   margin: 20px 0; 
 }
-<<<<<<< HEAD
 
 .footer-content {
   display: flex;
@@ -123,7 +122,6 @@
   line-height: 21px;
   color: #667085;
   margin-top: 10px;
-=======
 
 .footer-content {
   display: flex;
@@ -306,5 +304,4 @@
   .policy-header {
     margin-top: 20px;
   }
->>>>>>> dev
-}
+}}

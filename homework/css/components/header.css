@@ -5,17 +5,12 @@
   padding-bottom: 20px;
 }
 
-<<<<<<< Updated upstream
-.nav-btn {
-  display: none;
-}
-=======
 
 
 
 
->>>>>>> Stashed changes
 @media screen and (max-width: 896px) {
+
   .header {
     display: flex;
     align-items: center;
@@ -24,11 +19,11 @@
   }
   
   .header .logo {
-    margin-right: 20px; /* Увеличиваем отступ справа от логотипа */
+    margin-right: 20px; 
   }
   
   .nav-btn {
-    margin-left: auto; /* Добавляем авто-отступ слева, чтобы кнопка меню "отодвинулась" вправо */
+    margin-left: auto; 
   }
   
   .header .overlay {
@@ -50,6 +45,7 @@
     left: 0;
     z-index: 99;
     flex-direction: column;
+    width: 100vw;
     width: 50vw;
     padding-top: 70px;
     background-color: white;
@@ -135,8 +131,4 @@
     background-color: #666;
     border-radius: 2px;
   }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

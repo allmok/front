@@ -17,7 +17,7 @@
   text-transform: uppercase;
   line-height: 52px;
   text-align: center;
-  font-size: 18px; /* Увеличил базовый размер шрифта на кнопке */
+  font-size: 18px; 
   font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 480px) {

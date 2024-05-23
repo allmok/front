@@ -20,7 +20,7 @@
 .feature-items {
   display: flex;
   justify-content: center;
-  gap: 200px; /* Увеличенное расстояние между элементами */
+  gap: 200px; 
 }
 
 .feature-item {
@@ -59,8 +59,8 @@
 
 .feature-item-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 21px; /* Изменен размер шрифта */
-  color: #142A31; /* Цвет текста */
+  font-size: 21px; 
+  color: #142A31; 
   margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -69,9 +69,9 @@
 
 .feature-item-description {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px; /* Изменен размер шрифта */
-  color: #142A31; /* Цвет текста */
-  margin-bottom: 10px; /* Добавлено для отступа */
+  font-size: 15px;
+  color: #142A31; 
+  margin-bottom: 10px; 
   position: relative;
   z-index: 2;
 }
@@ -80,7 +80,7 @@
   .feature-items {
     display: flex;
     justify-content: center;
-    gap: 200px; /* Увеличенное расстояние между элементами */
+    gap: 200px; 
   }
 
   .feature-item {
@@ -120,46 +120,46 @@
 @media screen and (max-width: 895px) {
   .feature-items {
     flex-direction: column;
-    gap: 40px; /* Уменьшенное расстояние между элементами */
+    gap: 40px; 
   }
 
   .feature-item {
-    max-width: 100%; /* Ширина контейнера с изображением и текстом на всю ширину */
+    max-width: 100%; 
   }
 
   .image-container {
-    width: 100%; /* Ширина изображения на всю ширину контейнера */
-    height: auto; /* Автоматическая высота изображения */
+    width: 100%; 
+    height: auto; 
   }
 
   .image-container img {
-    position: static; /* Удаление вертикального выравнивания для изображения */
-    transform: none; /* Удаление вертикального выравнивания для изображения */
+    position: static; 
+    transform: none; 
   }
 
   .rectangle {
-    width: 100%; /* Ширина прямоугольника на всю ширину контейнера */
-    height: auto; /* Автоматическая высота прямоугольника */
-    position: static; /* Удаление вертикального выравнивания для прямоугольника */
-    transform: none; /* Удаление вертикального выравнивания для прямоугольника */
+    width: 100%; 
+    height: auto; 
+    position: static; 
+    transform: none; 
   }
 }
 @media screen and (min-width: 896px) and (max-width: 1318px) {
   .feature-items {
-    gap: 50px; /* Уменьшаем расстояние между блоками */
+    gap: 50px; 
   }
 
   .feature-item {
-    max-width: 250px; /* Уменьшаем ширину блоков */
+    max-width: 250px; 
   }
 
   .image-container {
-    width: 250px; /* Уменьшаем ширину контейнера с изображением */
-    height: 300px; /* Уменьшаем высоту контейнера с изображением */
+    width: 250px; 
+    height: 300px; 
   }
 
   .rectangle {
-    width: 250px; /* Уменьшаем ширину прямоугольника */
-    height: 300px; /* Уменьшаем высоту прямоугольника */
+    width: 250px; 
+    height: 300px; 
   }
 }

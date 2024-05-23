@@ -3,8 +3,8 @@
     position: absolute;
     width: 238px;
     height: 24px;
-    left: 210px; /* Перемещаем кнопку правее относительно .third-section */
-    top: 20px; /* Перемещаем кнопку ниже относительно .third-section */
+    left: 210px; 
+    top: 20px;
     background: #142A31;
     border-radius: 5px;
     display: flex;
@@ -22,5 +22,10 @@
     text-transform: uppercase;
   }
 
-  
-  
+  @media screen and (max-width: 768px) {
+  .dark-button {
+    position: static;
+    margin: 0 auto 20px; 
+    display: inline-block; 
+  }
+}

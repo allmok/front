@@ -1,5 +1,13 @@
-.social-list .menu-btn {
+.nav-btn {
     margin-right: 20px;
   }
+<<<<<<< Updated upstream
   
   
+=======
+  @media (min-width: 768px) {
+    .nav-btn {
+      display: none;
+    }
+  }
+>>>>>>> Stashed changes

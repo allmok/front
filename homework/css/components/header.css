@@ -5,9 +5,16 @@
   padding-bottom: 20px;
 }
 
+<<<<<<< Updated upstream
 .nav-btn {
   display: none;
 }
+=======
+
+
+
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 896px) {
   .header {
     display: flex;
@@ -128,4 +135,8 @@
     background-color: #666;
     border-radius: 2px;
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

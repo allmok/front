@@ -4,15 +4,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-<<<<<<< HEAD
 @media screen and (max-width: 1150px) {
-=======
-
 .nav-btn {
   display: none;
 }
 @media screen and (max-width: 896px) {
->>>>>>> dev
+
   .header {
     display: flex;
     align-items: center;
@@ -21,11 +18,11 @@
   }
   
   .header .logo {
-    margin-right: 20px; /* Увеличиваем отступ справа от логотипа */
+    margin-right: 20px; 
   }
   
   .nav-btn {
-    margin-left: auto; /* Добавляем авто-отступ слева, чтобы кнопка меню "отодвинулась" вправо */
+    margin-left: auto; 
   }
   
   .header .overlay {
@@ -47,11 +44,8 @@
     left: 0;
     z-index: 99;
     flex-direction: column;
-<<<<<<< HEAD
     width: 100vw;
-=======
     width: 50vw;
->>>>>>> dev
     padding-top: 70px;
     background-color: white;
     transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
@@ -104,8 +98,6 @@
     margin-bottom: 20px;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 896px) and (orientation: portrait) {
   .header {
@@ -138,5 +130,4 @@
     background-color: #666;
     border-radius: 2px;
   }
-}
->>>>>>> dev
+}}

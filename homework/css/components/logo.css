@@ -1,17 +1,11 @@
 .logo {
     display: inline-block;
-    width: 160px !important; /* Фиксированная ширина */
-    height: 89px !important; /* Фиксированная высота */
+    width: 160px !important; 
+    height: 89px !important; 
     flex-shrink: 0;
   }
   
   .logo img {
-    width: 160px !important; /* Фиксированная ширина */
-    height: 89px !important; /* Фиксированная высота */
+    width: 160px !important; 
+    height: 89px !important; 
   }
-<<<<<<< HEAD
-  
-=======
-  
- 
->>>>>>> dev

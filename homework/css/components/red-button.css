@@ -9,10 +9,7 @@
   cursor: pointer;
   padding: 10px 30px;
   height: 52px;
-<<<<<<< HEAD
-=======
   white-space: nowrap;
->>>>>>> dev
 }
 
 .red-button-text {
@@ -20,11 +17,9 @@
   text-transform: uppercase;
   line-height: 52px;
   text-align: center;
-  font-size: 18px; /* Увеличил базовый размер шрифта на кнопке */
+  font-size: 18px; 
   font-family: 'Roboto', sans-serif;
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 896px) and (orientation: portrait) {
   .red-button {
@@ -39,4 +34,3 @@
     font-size: 14px;
   }
 }
->>>>>>> dev

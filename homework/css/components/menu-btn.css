@@ -1,13 +1,8 @@
 .social-list .menu-btn {
     margin-right: 20px;
   }
-  
-<<<<<<< HEAD
   @media (min-width: 768px) {
     .menu-btn {
       display: none;
     }
   }
-=======
-  
->>>>>>> dev

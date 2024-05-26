@@ -35,7 +35,7 @@
   }
   
   .phone-image {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     margin-left: 100px; 
   }
@@ -45,8 +45,51 @@
     flex-direction: column;
     gap: 16px; 
   }
-  
-  @media screen and (max-width: 896px) {
+  @media screen and (max-width: 1150px) {
+    .main-heading {
+      font-size: 56px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media  screen and (max-width: 896px) and (orientation: portrait) {
+    .phone-image {
+      max-width: 200px;
+      height: auto;
+      margin-left: -180px;
+      margin-bottom: 155px;
+    }
+
+    .main-heading {
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+
+    .main-description {
+      font-size: 23px;
+      margin-bottom: 90px;
+    }
+  }
+
+  @media screen and (max-width: 868px) {
+    .phone-image {
+      max-width: 265px;
+      height: auto;
+      margin-left: -100px; 
+    }
+    .main-heading {
+      font-size: 39px;
+      margin-bottom: 35px;
+    }
+    
+    .main-description {
+      font-size: 17px;
+      margin-bottom: 90px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
     .phone-image {
       max-width: 250px;
       height: auto;
@@ -63,7 +106,24 @@
     }
   }
 
-  @media screen and (max-width: 896px) and (orientation: portrait) {
+  @media screen and (max-width: 486px) and (orientation: portrait){
+    .phone-image {
+      max-width: 155px;
+      height: auto;
+      margin-left: -180px;
+      margin-bottom: 155px;
+    }
+
+    .main-heading {
+      font-size: 30px;
+    }
+
+    .main-description {
+      font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width: 414px) and (orientation: portrait) {
     .phone-image {
       max-width: 145px;
       height: auto;

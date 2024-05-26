@@ -1,8 +1,8 @@
-.nav-btn {
+.social-list .menu-btn {
     margin-right: 20px;
   }
   @media (min-width: 768px) {
-    .nav-btn {
+    .menu-btn {
       display: none;
     }
   }

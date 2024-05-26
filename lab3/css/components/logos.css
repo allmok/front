@@ -1,58 +1,56 @@
-.logo-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-top: 20px;
-    max-width: 100%;
+.tech-stack-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  max-width: 100%; 
 }
 
-.logos {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+.tech-stack-logos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
 }
 
+.tech-stack-logos li {
+  flex: 0 0 calc(100% / 6); 
+  max-width: calc(100% / 6); 
+  text-align: center;
+  list-style: none;
+  margin-bottom: 30px; 
+}
 
 .tech-stack img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .logos li {
+    flex: 0 0 20%; /* На ширині 1024px і менше: 5 елементів у рядку */
+    max-width: 20%;
+  }
+}
 
-.logos li {
-    flex: 0 0 16.66%; /* На ширині більше 1024px: 6 елементів у рядку */
-    max-width: 16.66%;
-    text-align: center;
-    list-style: none;
-    margin-bottom: 30px;
+@media screen and (max-width: 768px) {
+  .logos li {
+    flex: 0 0 25%; /* На ширині між 1024px і 768px: 4 елементи у рядку */
+    max-width: 25%;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .logos li {
-      flex: 0 0 20%; /* На ширині 1024px і менше: 5 елементів у рядку */
-      max-width: 20%;
-    }
+}
+
+@media screen and (max-width: 480px) {
+  .logos li {
+    flex: 0 0 50%; /* На ширині між 768px і 480px: 2 елементи у рядку */
+    max-width: 50%;
   }
-  
-  @media screen and (max-width: 768px) {
-    .logos li {
-      flex: 0 0 25%; /* На ширині між 1024px і 768px: 4 елементи у рядку */
-      max-width: 25%;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .logos li {
+    flex: 0 0 100%; /* На ширині менше 320px: 1 елемент у рядку */
+    max-width: 100%;
   }
-  
-  @media screen and (max-width: 480px) {
-    .logos li {
-      flex: 0 0 50%; /* На ширині між 768px і 480px: 2 елементи у рядку */
-      max-width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .logos li {
-      flex: 0 0 100%; /* На ширині менше 320px: 1 елемент у рядку */
-      max-width: 100%;
-    }
-  }
+}

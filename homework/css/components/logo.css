@@ -1,11 +1,8 @@
 .logo {
     display: inline-block;
     width: 160px !important; 
-<<<<<<< HEAD
     height: 89px !important; 
-=======
     width: 89px !important; 
->>>>>>> dev
     flex-shrink: 0;
   }
   
@@ -13,8 +10,3 @@
     width: 160px !important; 
     height: 89px !important; 
   }
-<<<<<<< HEAD
-=======
-
-  
->>>>>>> dev

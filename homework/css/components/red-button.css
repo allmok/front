@@ -9,7 +9,7 @@
   padding: 10px 30px;
   height: 52px;
   white-space: nowrap;
-  margin-left: 300px; /* Изначальное значение для больших экранов */
+  margin-left: 300px; 
 }
 
 .red-button-text {
@@ -17,11 +17,8 @@
   text-transform: uppercase;
   line-height: 52px;
   text-align: center;
-<<<<<<< HEAD
   font-size: 18px; 
-=======
   font-size: 18px;
->>>>>>> dev
   font-family: 'Roboto', sans-serif;
 }
 
@@ -48,8 +45,6 @@
     font-size: 16px;
     line-height: 36px;
   }
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (max-width: 720px) {
@@ -71,5 +66,4 @@
     font-size: 14px;
     line-height: 32px;
   }
->>>>>>> dev
 }
